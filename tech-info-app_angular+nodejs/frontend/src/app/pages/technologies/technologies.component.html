@@ -1,0 +1,11 @@
+<h1>Technologies<small>Backend y Frontend</small></h1>
+
+<hr />
+
+<div class="card-columns">
+  <!-- Mandamos la tech y lo recibe como input app-technology-card component -->
+  <app-technology-card
+    [technology]="technology"
+    *ngFor="let technology of technologies"
+  ></app-technology-card>
+</div>
